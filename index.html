@@ -1,0 +1,30 @@
+<!DOCTYPE HTML> 
+<html lang="PT-BR"> 
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=devide=width, initial-scale=1.0"> 
+		<link rel="stylesheet" href="css/style.css"> 
+		<title> Estacionamento </title>
+	</head>
+	<body> 
+		<div> 
+			<h2> Controle Estacionamento </h2>
+			<input type="text" id="name" placeholder="Nome do veículo: " autocomplete="off"> 
+			<input type="text" id="licence" placeholder="Placa do veículo: " autocomplete="off">
+			<button id="send"> Registrar </button>
+		</div>
+		<table> 
+			<thead>
+				<tr> 
+					<th> Veículo </th>
+					<th> Placa </th>
+					<th> Data </th>
+					<th> Horário </th>
+					<th> Ações </th>
+				</tr>
+			</thead>
+			<tbody id="garage"></tbody>
+		</table>
+	</body>
+	<script src="js/main.js"></script>
+</html>
